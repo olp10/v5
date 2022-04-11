@@ -7,7 +7,7 @@ export default function Login() {
       <main className={styles.link}>
         <h1>Nýskráning</h1>
 
-        <form action="/api/register" method="post" className={styles.form}>
+        <form action="/users/login" method="post" className={styles.form}>
           <label htmlFor="name">Nafn</label>
           <input type="text" id="name" name="name"></input>
           <label htmlFor="username">Notendanafn</label>
