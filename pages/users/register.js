@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../src/login/Login.module.scss';
+import styles from '../../src/login/Login.module.scss';
 
 export default function Login() {
   return (
@@ -19,9 +19,10 @@ export default function Login() {
 
         <hr/>
         <Link href="/">Forsíða</Link><br/>
-        <Link href="/login">Innskráning</Link><br />
-        <Link href="/register">Nýskráning</Link>
+        <Link href="/users/login">Innskráning</Link><br />
+        <Link href="/users/register">Nýskráning</Link>
       </main>
+      {console.log("testing")}
     </>
   )
 }

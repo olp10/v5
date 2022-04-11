@@ -20,6 +20,7 @@ export default function Login() {
         <Link href="/login">Innskráning</Link><br />
         <Link href="/register">Nýskráning</Link>
       </main>
+      {console.log('testing >> ')}
     </>
   )
 }

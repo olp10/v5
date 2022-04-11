@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../../src/event/Event.module.scss';
+import { Events } from '../../src/events/Events';
 
 export default function Event(props) {
   console.log('props.data :>> ', props.name);
@@ -12,6 +13,7 @@ export default function Event(props) {
       
 
       <main className={styles.event}>
+        {Events}
         <h1>{props.name}</h1>
         <h3>{props.description}</h3>
         <h3>Skráningar:</h3>

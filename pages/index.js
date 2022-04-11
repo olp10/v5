@@ -31,8 +31,8 @@ export default function Home({ allEvents }) {
         })}
         <hr/>
         <Link href="/">Forsíða</Link><br/>
-        <Link href="/login">Innskráning</Link><br />
-        <Link href="/register">Nýskráning</Link>
+        <Link href="/users/login">Innskráning</Link><br />
+        <Link href="/users/register">Nýskráning</Link>
       </main>
 
       <footer className={styles.footer}>
