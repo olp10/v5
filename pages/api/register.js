@@ -5,7 +5,7 @@ export default function Login() {
   return (
     <>
       <main className={styles.link}>
-        <h1>Innskráning</h1>
+        <h1>Innskráninga</h1>
 
         <form action="/api/register" method="post" className={styles.form}>
           <label htmlFor="username">Notendanafn</label>
